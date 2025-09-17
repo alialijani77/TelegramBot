@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Infra.Ioc", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Core", "TelegramBot.Core\TelegramBot.Core.csproj", "{28F5FBEA-01F8-480D-AF62-1B919F5AEC42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Api", "TelegramBot.Api\TelegramBot.Api.csproj", "{0D6C3B6A-8D0D-4F77-9D59-CDF23AE40EEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Api", "TelegramBot.Api\TelegramBot.Api.csproj", "{54DF248B-7471-4B51-9AFB-96ED2C43583D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.AppHost", "TelegramBot.AppHost\TelegramBot.AppHost.csproj", "{E0EE3596-C6C8-4092-844D-042CC542CCBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +37,14 @@ Global
 		{28F5FBEA-01F8-480D-AF62-1B919F5AEC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28F5FBEA-01F8-480D-AF62-1B919F5AEC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28F5FBEA-01F8-480D-AF62-1B919F5AEC42}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D6C3B6A-8D0D-4F77-9D59-CDF23AE40EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D6C3B6A-8D0D-4F77-9D59-CDF23AE40EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D6C3B6A-8D0D-4F77-9D59-CDF23AE40EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D6C3B6A-8D0D-4F77-9D59-CDF23AE40EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DF248B-7471-4B51-9AFB-96ED2C43583D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DF248B-7471-4B51-9AFB-96ED2C43583D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DF248B-7471-4B51-9AFB-96ED2C43583D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DF248B-7471-4B51-9AFB-96ED2C43583D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EE3596-C6C8-4092-844D-042CC542CCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EE3596-C6C8-4092-844D-042CC542CCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EE3596-C6C8-4092-844D-042CC542CCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EE3596-C6C8-4092-844D-042CC542CCBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
