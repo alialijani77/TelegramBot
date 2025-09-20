@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TelegramBot.Api.Controllers
@@ -9,11 +7,11 @@ namespace TelegramBot.Api.Controllers
     [ApiController]
     public class TelegramBotController : ControllerBase
     {
-        //[AllowAnonymous]
-        //[HttpPost("TelegramBot")]
-        //public async Task<IActionResult> TelegramBot([FromBody] Telegram.Bot.Types.Update update)
-        //{
-        //    return Ok();
-        //}
+        [AllowAnonymous]
+        [HttpPost("TelegramBot")]
+        public async Task<IActionResult> TelegramBot([FromBody] Telegram.Bot.Types.Update update)
+        {
+            return Ok();
+        }
     }
 }
