@@ -12,4 +12,9 @@
     <Folder Include="Statics\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TelegramBot.Domain\TelegramBot.Domain.csproj" />
+    <ProjectReference Include="..\TelegramBot.Infra.Data\TelegramBot.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

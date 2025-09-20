@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TelegramBot.Core\TelegramBot.Core.csproj" />
+    <ProjectReference Include="..\TelegramBot.Domain\TelegramBot.Domain.csproj" />
+    <ProjectReference Include="..\TelegramBot.Infra.Data\TelegramBot.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
