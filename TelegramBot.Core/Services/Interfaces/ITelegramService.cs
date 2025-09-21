@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Telegram.Bot.Types;
+using TelegramBot.Core.DTOs.ApiResult;
 
 namespace TelegramBot.Core.Services.Interfaces
 {
-    internal class ITelegramService
+    public interface ITelegramService
     {
+        Task<ApiResultDto<string>> StartMessageAsync(Update telegramBotDto, CancellationToken ct);
     }
 }
