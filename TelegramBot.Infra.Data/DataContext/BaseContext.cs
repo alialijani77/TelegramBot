@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using TelegramBot.Domain.Entities;
 
 namespace TelegramBot.Infra.Data.DataContext
 {
@@ -13,7 +14,7 @@ namespace TelegramBot.Infra.Data.DataContext
         }
 
         #region DbSet
-
+        public DbSet<ServiceProvider> EmailSettings { get; set; }
         #endregion
 
         protected override void OnModelCreating(ModelBuilder builder)
